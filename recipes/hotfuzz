@@ -1,1 +1,2 @@
-(hotfuzz :repo "axelf4/hotfuzz" :fetcher github)
+(hotfuzz :repo "axelf4/hotfuzz" :fetcher github
+         :files (:defaults "CMakeLists.txt" "hotfuzz-module.c"))
